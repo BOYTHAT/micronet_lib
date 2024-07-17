@@ -74,7 +74,7 @@ Follow these step to create Telegram Bot
 
 ![Reference Image](PIC/te2.png)
 
-- Step3 : Set the name of telegram bot then copy the APPI to past on botToken.
+- Step3 : Set the name of telegram bot then copy the API to past on botToken.
 Note: Don't share your Bot API with others.
 
 ![Reference Image](PIC/te3.png)
