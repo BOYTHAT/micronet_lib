@@ -1,6 +1,9 @@
 # 1. Description of Micro:Net
 The MicroNet PCB Board featuring the ESP32-S3 is a powerful and efficient platform designed for educational and practical applications in IoT, AI, and embedded systems. Its advanced features and compact design make it an ideal choice for developers, hobbyists, and educators looking to explore and innovate in the fields of electronics. This all-in-one educational package encourages assembly, fosters STEM skills, and offers a comprehensive introduction to robotics, electronics, and potential programming for all of generations to gain more knowledges.
+
+
 ![Reference Image](PIC/MATCHTEAM.png)
+
 # 2. Micro:Net library for Arduino IDE
     - BlinkLED
     - Button
@@ -9,6 +12,8 @@ The MicroNet PCB Board featuring the ESP32-S3 is a powerful and efficient platfo
     - TelegramControl
 # 3. BlinkLED
 You can go to example of MiorcoNet libray then click on BlinkLED
+
+
 ![Reference Image](PIC/image.png)
 
 In this example we set the LED1 to pin 5 and LED2 to pin 6 according to the MicroNet board. You also can change to another pins as possible.
