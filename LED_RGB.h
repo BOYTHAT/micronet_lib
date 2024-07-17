@@ -1,14 +1,14 @@
-#ifndef RGB_H
-#define RGB_H
+#ifndef LED_RGB_H
+#define LED_RGB_H
 
 #include <Adafruit_NeoPixel.h>
 
-class RGB {
+class LED_RGB {
 public:
-  RGB(uint16_t num_leds, uint8_t pin, uint8_t brightness = 50);
+  LED_RGB(uint8_t pin, uint16_t numPixels, uint8_t brightness = 50);
   void begin();
-  void rainbowCycle(int wait);
   void colorWipe(uint32_t color, int wait);
+  void rainbowCycle(int wait);
 
 private:
   Adafruit_NeoPixel strip;

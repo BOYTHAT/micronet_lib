@@ -1,14 +1,14 @@
-#include <RGB.h>
+#include <LED_RGB.h>
 
-#define LED_PIN    4   // GPIO pin connected to the NeoPixels
-#define NUM_LEDS   2   // Number of NeoPixels in the strip
+#define LED_PIN    4
+#define NUM_LEDS   8
 
-RGB myStrip(NUM_LEDS, LED_PIN);
+LED_RGB ledStrip(LED_PIN, NUM_LEDS);
 
 void setup() {
-  myStrip.begin();        // Initialize the NeoPixel library
+  ledStrip.begin();
 }
 
 void loop() {
-  myStrip.rainbowCycle(10); // Rainbow cycle with a 10ms delay per step
+  ledStrip.rainbowCycle(10);
 }
