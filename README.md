@@ -57,9 +57,11 @@ You need to initial :
     Example : My WiFi's password is "12345678" then it should be const char* password = "12345678";
 
 - botToken : YOUR_BOT_TOKEN
+
     Example : My botToken is "7048698101:AAE-------" then it should be const char* password = "12345678";
 
 - chatID : YOUR CHAT ID 
+
     Example : My botToken is "123------" then it should be const char* password = "123----";
 
 # 8. How to Create Telegram Bot ?
